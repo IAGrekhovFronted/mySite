@@ -987,15 +987,12 @@ label {
     width: 100%;
   }
   .offer__RowTwo {
-    flex-direction: column;
-/*     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; */
+    display: block;
     gap: 50px;
   }
   .offer__RowTwo div {
     width: auto;
+    margin-top: 3em;
   }
   .aboutMe__TwoContainer {
     width: 100%;
