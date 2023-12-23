@@ -962,7 +962,6 @@ label {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 15px;
-    padding-bottom: 30vh;
   }
   nav {
     display: none;
