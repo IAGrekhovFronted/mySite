@@ -1,0 +1,69 @@
+<?php
+setcookie("contactPage", "inactiv", time() + 20000);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&family=Manrope:wght@800&family=Roboto+Slab:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid_contain">
+        <nav>
+            <div class="nav__name">Грехов Иван</div>
+            <img src="firstPage/MyFoto.jpg" alt="">
+            <div class="nav__container">
+                <ul class="firstList">
+                    <li><a href="index.html">Главная</a></li>
+                    <li> <a href="offer.html">Услуги</a></li>
+                    <!-- <li><a href="aboutMe.php">Обо мне</a></li> -->
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mainInform">
+            <div class="main__container">
+                <h1>Обо мне</h1>
+                <div class="aboutMe__TwoContainer">
+                    <div class="Brief__Item">
+                        <h2>Краткие сведения</h2>
+                        <div class="aboutMe__Text">
+                            <p><b>Образование:</b> высшее медицинское (врач-лечебник; врач судебно-медицинский эксперт; врач-патологоанатом; специалист по организации здравоохранения; врач клинико-лабораторной диагностики)</p>
+                            <p><b>Кем работал?</b> По всем специальностям выше. Добрался до руководства областным учреждением.</p>
+                            <p><b>Почему ушел из медицины?</b> Сейчас работать в медицине - сомнительное удовольствие для ответственных людей.</p>
+                            <p><b>Fronted?</b> Для автоматизации работы в медицине писал программы на Python и Visual Basic. HTML и JavaScript оказались очень близки. Сыграл свою роль и спрос на Fronted-разработчиков.</p>
+                        </div>
+                    </div>
+                    <div class="aboutMe__Item">
+                        <h2>Личные данные</h2> <br>
+                        <div class="aboutMe__Text">
+                            <b>Дата рождения:</b> <br> 10.06.1995 г. <br>
+                            <b>Контактный телефон:</b> <br> 8-922-185-81-22<br>
+                            <b>Электронная почта:</b> iagrekhov.fronted@gmail.com<br>
+                            <b>Проживание:</b> Екатеринбург<br>
+                            <b>Гражданство:</b> РФ<br>
+                            <b>Занятость:</b> удаленная работа
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="burgerMenu">Меню</div>
+    </div>
+
+    <script src="node.js"></script>
+</body>
+
+</html>

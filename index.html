@@ -1,0 +1,53 @@
+<?php
+setcookie("contactPage", "activ", time() + 20000);
+setcookie("newPage", "inactiv", time() + 20000);
+// setcookie("computerName", $_SERVER['COMPUTERNAME'], time() + 20000);
+// print_r($_COOKIE)
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитная карточка</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&family=Manrope:wght@800&family=Roboto+Slab:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid_contain">
+        <nav>
+            <!-- <div class="nav__name">Грехов Иван</div> -->
+            <img src="firstPage/MyFoto.jpg" alt="">
+            <div class="nav__container">
+                <ul class="firstList">
+                    <li><a href="offer.html">Услуги</a></li>
+                    <li><a href="aboutMe.html">Обо мне</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="videoWrapper">
+            <video class="Backvideo" playsinline autoplay muted loop>
+                <source src="firstPage/bg_0003.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="main">
+            <h1 class="mainH1">Грехов Иван Андреевич</h1>
+            <h2 class="firstRow">I am <b>Fronted-developer</b></h2>
+            <h2 class="secondRow">Use <b class="secondRow__first">HTML, CSS, SCSS</b> </h2>
+            <h2 class="thirdRow">Work with <b>JavaScript, PHP</b> </h2>
+        </div>
+        <div class="burgerMenu">Меню</div>
+    </div>
+    <script src="node.js"></script>
+</body>
+
+</html>

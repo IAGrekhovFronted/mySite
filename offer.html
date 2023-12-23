@@ -1,0 +1,86 @@
+<?php
+setcookie("contactPage", "inactiv", time() + 20000);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&family=Manrope:wght@800&family=Roboto+Slab:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid_contain">
+        <nav>
+            <div class="nav__name">Грехов Иван</div>
+            <img src="firstPage/MyFoto.jpg" alt="">
+            <div class="nav__container">
+                <ul class="firstList">
+                    <li><a href="index.html">Главная</a></li>
+                    <!-- <li> <a href="offer.php">Услуги</a></li> -->
+                    <li><a href="aboutMe.html">Обо мне</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mainInform">
+            <div class="main__container">
+                <h1>Чем я могу вам помочь?</h1>
+                <div class="offer__Row">
+                    <div class="offer__item">
+                        <h2>Сверстать сайт "руками" или в конструкторах</h2>
+                        <video playsinline autoplay muted loop>
+                            <source src="/video/tilda.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="offer__item">
+                        <img src="/Portfolio/PlaceForce.jpg" alt="">
+                        <h2>Разработать макет вашего сайта</h2>
+                    </div>
+                    <div class="offer__item">
+                        <h2>Создать адаптив под любые устройства</h2>
+                        <video playsinline autoplay muted loop>
+                            <source src="/video/man.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="offer__item">
+                        <img src="/WordPress.jpg" alt="">
+                        <h2>Подключить и настроить необходимую CRM</h2>
+                    </div>
+                    <div class="offer__item">
+                        <h2>Создать анимацию любой сложности</h2>
+                        <video playsinline autoplay muted loop>
+                            <source src="/video/logistic.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <h2 class="h2__offer">Почему со мной выгодно и удобно работать?</h2>
+                <div class="offer__RowTwo">
+                    <div>Гарантия на всю работу</div>
+                    <div>Первая страница бесплатно</div>
+                    <div>О цене договариваемся "на берегу" </div>
+                    <div>Скидка 10% за хороший отзыв</div>
+                    <div>Возможность заключить договор</div>
+                </div>
+            </div>
+        </div>
+        <div class="burgerMenu">Меню</div>
+    </div>
+
+    <script src="node.js"></script>
+</body>
+
+</html>

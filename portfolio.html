@@ -1,0 +1,123 @@
+<?php
+setcookie("contactPage", "inactiv", time() + 20000);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&family=Manrope:wght@800&family=Roboto+Slab:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid_contain">
+        <nav>
+            <div class="nav__name">Грехов Иван</div>
+            <img src="firstPage/MyFoto.jpg" alt="">
+            <div class="nav__container">
+                <ul class="firstList">
+                    <li><a href="index.html">Главная</a></li>
+                    <li> <a href="offer.html">Услуги</a></li>
+                    <li><a href="aboutMe.html">Обо мне</a></li>
+                    <!-- <li>Портфолио</li> -->
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mainPortfolio">
+            <div class="main__container">
+                <h1>Примеры выполненных работ</h1>
+                <div class="portfolio__Navigation">
+                    <div class="portfolio__NavigationItem all">ALL</div>
+                    <div class="portfolio__NavigationItem landing">Верстка лендинга</div>
+                    <div class="portfolio__NavigationItem JavaScript">JavaScript</div>
+                    <div class="portfolio__NavigationItem Dis">Дизайн</div>
+                </div>
+                <div class="portfolio__GridContaiiner">
+                    <div class="portfolio__items landing">
+                        <div class="portfolio__items-title">Верстка и адаптив <br>landing page</div>
+                        <img src="Portfolio/FirstMaket.jpg" alt="">
+                        <div class="portfolio__items-annotation">Сверстано на HTML, CSS, SCSS, JavaScript <br> Динамический адаптив под любые устройства <br> Срок - 1 сутки <br> <a href="https://iagrekhovfronted.github.io/LandingAuto/">Ссылка для ознакомления </a></div>
+                    </div>
+                    <div class="portfolio__items landing">
+                        <div class="portfolio__items-title landing">Верстка и адаптив <br>landing page на Тильде</div>
+                        <img src="Portfolio/Tilda.jpg" alt="">
+                        <div class="portfolio__items-annotation">Сверстано на Тильде <br> Срок - 4 часа <br> <a href="https://project8221820.tilda.ws/">Ссылка для ознакомления </a></div>
+                    </div>
+                    <div class="portfolio__items landing">
+                        <div class="portfolio__items-title">Верстка превью Header для логистики</div>
+                        <img src="Portfolio/logistic.jpeg" alt="">
+                        <div class="portfolio__items-annotation">Сверстано на HTML, CSS, SCSS, в том числе цикличная анимация <br> Динамический адаптив под любые устройства <br> Срок - 3 часа <br> <a href="https://iagrekhovfronted.github.io/HeaderLogistic/">Ссылка для ознакомления</a></div>
+                    </div>
+                    <div class="portfolio__items Dis">
+                        <div class="portfolio__items-title">Дизайн Header сайта с домиками отдыха</div>
+                        <img src="Portfolio/PlaceForce.jpg" alt="">
+                        <div class="portfolio__items-annotation">Разработан на Figma <br> Срок - 3 часа <br> </div>
+                    </div>
+                    <div class="portfolio__items Dis">
+                        <div class="portfolio__items-title">Карточка товара для WB</div>
+                        <img src="Portfolio/WB.jpg" alt="">
+                        <div class="portfolio__items-annotation">Разработан на Figma <br> Срок - 3 часа <br> </div>
+                    </div>
+                    <div class="portfolio__items Dis">
+                        <div class="portfolio__items-title">Разработка личного бренда для кофейни</div>
+                        <img src="Portfolio/Brend.jpg" alt="">
+                        <div class="portfolio__items-annotation">Разработан на Figma <br> Срок - 3 суток <br> </div>
+                    </div>
+                    <div class="portfolio__items JavaScript">
+                        <div class="portfolio__items-title">Drag and Drop <br> для мыши</div>
+                        <div class="img">
+                            <div class="DragAndRoll__pole">
+                                <div class="DragAndRoll__role"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio__items-annotation">Небольшой интерактив, идея взята с https://doka.guide. Адаптирован через использования .target в JavaScript и относительное позиционирование <br> Реализация средствами HTMS, SCSS, JavaScript <br> Срок - 5 часов <br> </div>
+                    </div>
+                   
+                    <div class="portfolio__items JavaScript">
+                        <div class="portfolio__items-title">Калькулятор</div>
+                        <div class="img">
+                            <div class="Calc__container">
+                                <input type="text" class="CalcPoleTwo" value="" readonly>
+                                <input type="number" class="CalcPole" value="" readonly>
+                                <div class="number">
+                                    <div class="sumbStyle zero">0</div>
+                                    <div class="sumbStyle one">1</div>
+                                    <div class="sumbStyle two">2</div>
+                                    <div class="sumbStyle tree">3</div>
+                                    <div class="sumbStyle four">4</div>
+                                    <div class="sumbStyle five">5</div>
+                                    <div class="sumbStyle six">6</div>
+                                    <div class="sumbStyle seven">7</div>
+                                    <div class="sumbStyle eight">8</div>
+                                    <div class="sumbStyle nine">9</div>
+                                    <div class="sumbStyle symbol plus">+</div>
+                                    <div class="sumbStyle symbol minus">-</div>
+                                    <div class="sumbStyle symbol multiply">*</div>
+                                    <div class="sumbStyle symbol divide ">/</div>
+                                    <div class="sumbStyle symbol equals">=</div>
+                                    <button class="butReset"> Очистить </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio__items-annotation"> На каждом изученном языке программирования должен быть калькулятор. <br> Реализация средствами HTMS, SCSS, JavaScript <br> Срок - 1 час <br> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="burgerMenu">Меню</div>
+    </div>
+    <script src="node.js"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

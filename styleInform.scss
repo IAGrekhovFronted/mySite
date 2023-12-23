@@ -1,0 +1,10 @@
+html {
+    overflow: hidden;
+}
+.transition {
+    height: 100%;
+    width: 100%;
+    background-image: url(transition.jpg);
+    position: absolute;
+    transition: 1.5s;
+}
