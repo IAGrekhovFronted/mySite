@@ -1017,8 +1017,6 @@ label {
 }
 @media (width < 700px) {
   .mainH1, h2 {
-    position: relative;
-    top: 15vh;
     text-wrap: wrap;
   }
   .mainH1 {
