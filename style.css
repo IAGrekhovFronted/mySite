@@ -983,14 +983,15 @@ label {
   }
   .mainInform,
   .main__container {
-    padding: 5vh 2vh 2vh;
+    padding: 5vh 2vh 5vh;
     width: 100%;
   }
   .offer__RowTwo {
-    -webkit-box-orient: vertical;
+    flex-direction: column;
+/*     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column;
+            flex-direction: column; */
     gap: 50px;
   }
   .offer__RowTwo div {
